@@ -13,3 +13,6 @@ run:
 
 exec:
 	docker exec -it angulartut /bin/bash
+
+logs:
+	docker logs angulartut -f
